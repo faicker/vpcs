@@ -57,8 +57,8 @@ static const char *ident = "$Id: vpcs.c 81 2013-09-20 08:14:15Z mirnshi $";
 
 int pcid = 0;  /* current vpc id */
 int devtype = 0;
-int lport = 20000;
-int rport = 30000;
+int lport = 20001;
+int rport = 30001;
 int rport_flag = 0;
 u_int rhost = 0; /* remote host */
 
