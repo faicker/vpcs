@@ -17,8 +17,8 @@ which are used as PCs in the dynamips network.
 receives the packets via udp. In the ether mode, via /dev/tap, not support 
 on the Windows.
 
-   When VPCS started, it listens the ports from 20000 to 20008 and waits the 
-dynamips to connect, and sends the packets to the ports from 30000 to 30008 which 
+   When VPCS started, it listens the ports from 20001 to 20009 and waits the 
+dynamips to connect, and sends the packets to the ports from 30001 to 30009 which 
 should be listened by the dynamips. 
    
    VPCS will look for the file named 'startup.vpc' in the current directory, and 
